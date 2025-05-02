@@ -35,8 +35,8 @@ deepspeed src/train/train_sft.py \
     --freeze_vision_tower False \
     --freeze_llm True \
     --freeze_merger False \
-    --bf16 True \
-    --fp16 False \
+    --bf16 False \
+    --fp16 True \
     --disable_flash_attn2 False \
     --output_dir output/testing_lora \
     --num_train_epochs 1 \
